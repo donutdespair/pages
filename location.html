@@ -6,6 +6,7 @@
 		body {background-color: black; text-align:center}
 		h3	{color: powderblue; font-family: courier; }
 		footer {color: tan; font-family: courier;}
+		p {color: teal; font-family: courier;}
 	</style>
 </head>
 <body>
@@ -14,7 +15,9 @@
 <a href="file:///Users/student_07/Desktop/pages/aboutme.html">About Me</a>  |
 <a href="file:///Users/student_07/Desktop/pages/location.html">Location</a> |
 <a href="file:///Users/student_07/Desktop/pages/resume.html">Resume</a> </h3> <br><br>
-<img src="https://www.lib.utexas.edu/maps/historical/lakeland_fl_1919.jpg"><br><br>
+<img src="https://www.lib.utexas.edu/maps/historical/lakeland_fl_1919.jpg" style="width: 600px; height: 500px"> <br><br>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:600px;"><div id="gmap_canvas" style="height:500px;width:600px;"><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.themecircle.net" id="get-map-data">wordpress themes</a></div></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(28.0253415,-81.96062380000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.0253415, -81.96062380000001)});infowindow = new google.maps.InfoWindow({content:"<b>Lakeland, FL</b><br/>416 Ariana St<br/>33803 Lakeland" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+<p> (That's my elementary school, a few blocks from where I grew up.)
 <footer>
   <a href="file:///Users/student_07/Desktop/pages/form.html">
   Contact Me</a>
